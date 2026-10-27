@@ -1,0 +1,39 @@
+{% extends 'master.html' %}
+
+{% block title %}
+- Registro
+{% endblock %}
+
+{% block content %}
+
+<div class="card mt-2">
+    <div class="card-header">
+        Registro
+    </div>
+    <div class="card-body">
+
+        <form action="/register/" method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+
+            Primeiro Nome: <br>
+            <input name="first_name" required>
+            <br><br>
+            Sobrenome: <br>
+            <input name="last_name" required>
+            <br><br>
+            Usuário: <br>
+            <input name="username" required>
+            <br><br>
+            Senha: <br>
+            <input name="password" type="password" required>
+            <br><br>
+            <input type="submit" value="Submit">
+        </form>
+
+        <br>
+        <p>Já tem conta? <a href="/login/">Acesse!</a> </p>
+
+    </div>
+</div>
+
+{% endblock %}
