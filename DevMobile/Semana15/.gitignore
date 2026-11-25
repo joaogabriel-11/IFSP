@@ -1,0 +1,51 @@
+# ===== Arquivos gerados pelo Flutter/Dart (recriados com "flutter pub get" / "flutter build") =====
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+**/doc/api/
+**/ios/Flutter/.last_build_id
+migrate_working_dir/
+
+# ===== Configurações de editor/IDE (pessoais de cada máquina) =====
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.atom/
+.history
+
+# ===== Android: builds e arquivos locais =====
+/android/app/debug
+/android/app/profile
+/android/app/release
+/android/local.properties
+/android/.gradle/
+/android/key.properties
+*.jks
+*.keystore
+
+# ===== Windows: arquivos temporários do build =====
+/windows/flutter/ephemeral/
+
+# ===== Símbolos e mapas de ofuscação =====
+app.*.symbols
+app.*.map.json
+
+# ===== Senhas e configurações locais =====
+.env
+*.env
+
+# ===== Lixo do sistema e logs =====
+*.log
+*.class
+*.pyc
+*.swp
+.DS_Store
+Thumbs.db
+.buildlog/
+.svn/
